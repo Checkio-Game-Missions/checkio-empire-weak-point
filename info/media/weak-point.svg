@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400" height="460" viewBox="0, 0, 400, 460">
+  <g id="Background">
+    <rect x="0" y="0" width="400" height="460" fill="#000000" fill-opacity="0"/>
+  </g>
+  <g id="Layer 1">
+    <g>
+      <path d="M71.922,59.34 L131.922,59.34 L131.922,119.34 L71.922,119.34 z" fill="#8FC7ED"/>
+      <path d="M71.922,59.34 L131.922,59.34 L131.922,119.34 L71.922,119.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M131.922,59.34 L191.922,59.34 L191.922,119.34 L131.922,119.34 z" fill="#8FC7ED"/>
+      <path d="M131.922,59.34 L191.922,59.34 L191.922,119.34 L131.922,119.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M191.922,59.34 L251.922,59.34 L251.922,119.34 L191.922,119.34 z" fill="#8FC7ED"/>
+      <path d="M191.922,59.34 L251.922,59.34 L251.922,119.34 L191.922,119.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M251.922,59.34 L311.922,59.34 L311.922,119.34 L251.922,119.34 z" fill="#FABA00"/>
+      <path d="M251.922,59.34 L311.922,59.34 L311.922,119.34 L251.922,119.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M311.922,59.34 L371.922,59.34 L371.922,119.34 L311.922,119.34 z" fill="#8FC7ED"/>
+      <path d="M311.922,59.34 L371.922,59.34 L371.922,119.34 L311.922,119.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M71.922,119.34 L131.922,119.34 L131.922,179.34 L71.922,179.34 z" fill="#8FC7ED"/>
+      <path d="M71.922,119.34 L131.922,119.34 L131.922,179.34 L71.922,179.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M131.922,119.34 L191.922,119.34 L191.922,179.34 L131.922,179.34 z" fill="#8FC7ED"/>
+      <path d="M131.922,119.34 L191.922,119.34 L191.922,179.34 L131.922,179.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M191.922,119.34 L251.922,119.34 L251.922,179.34 L191.922,179.34 z" fill="#8FC7ED"/>
+      <path d="M191.922,119.34 L251.922,119.34 L251.922,179.34 L191.922,179.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M251.922,119.34 L311.922,119.34 L311.922,179.34 L251.922,179.34 z" fill="#FABA00"/>
+      <path d="M251.922,119.34 L311.922,119.34 L311.922,179.34 L251.922,179.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M311.922,119.34 L371.922,119.34 L371.922,179.34 L311.922,179.34 z" fill="#8FC7ED"/>
+      <path d="M311.922,119.34 L371.922,119.34 L371.922,179.34 L311.922,179.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M71.922,179.34 L131.922,179.34 L131.922,239.34 L71.922,239.34 z" fill="#8FC7ED"/>
+      <path d="M71.922,179.34 L131.922,179.34 L131.922,239.34 L71.922,239.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M131.922,179.34 L191.922,179.34 L191.922,239.34 L131.922,239.34 z" fill="#8FC7ED"/>
+      <path d="M131.922,179.34 L191.922,179.34 L191.922,239.34 L131.922,239.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M191.922,179.34 L251.922,179.34 L251.922,239.34 L191.922,239.34 z" fill="#8FC7ED"/>
+      <path d="M191.922,179.34 L251.922,179.34 L251.922,239.34 L191.922,239.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M251.922,179.34 L311.922,179.34 L311.922,239.34 L251.922,239.34 z" fill="#FABA00"/>
+      <path d="M251.922,179.34 L311.922,179.34 L311.922,239.34 L251.922,239.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M311.922,179.34 L371.922,179.34 L371.922,239.34 L311.922,239.34 z" fill="#8FC7ED"/>
+      <path d="M311.922,179.34 L371.922,179.34 L371.922,239.34 L311.922,239.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M71.922,239.34 L131.922,239.34 L131.922,299.34 L71.922,299.34 z" fill="#FABA00"/>
+      <path d="M71.922,239.34 L131.922,239.34 L131.922,299.34 L71.922,299.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M131.922,239.34 L191.922,239.34 L191.922,299.34 L131.922,299.34 z" fill="#FABA00"/>
+      <path d="M131.922,239.34 L191.922,239.34 L191.922,299.34 L131.922,299.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M191.922,239.34 L251.922,239.34 L251.922,299.34 L191.922,299.34 z" fill="#FABA00"/>
+      <path d="M191.922,239.34 L251.922,239.34 L251.922,299.34 L191.922,299.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M251.922,239.34 L311.922,239.34 L311.922,299.34 L251.922,299.34 z" fill="#FABA00"/>
+      <path d="M251.922,239.34 L311.922,239.34 L311.922,299.34 L251.922,299.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M311.922,239.34 L371.922,239.34 L371.922,299.34 L311.922,299.34 z" fill="#FABA00"/>
+      <path d="M311.922,239.34 L371.922,239.34 L371.922,299.34 L311.922,299.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M71.922,299.34 L131.922,299.34 L131.922,359.34 L71.922,359.34 z" fill="#8FC7ED"/>
+      <path d="M71.922,299.34 L131.922,299.34 L131.922,359.34 L71.922,359.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M131.922,299.34 L191.922,299.34 L191.922,359.34 L131.922,359.34 z" fill="#8FC7ED"/>
+      <path d="M131.922,299.34 L191.922,299.34 L191.922,359.34 L131.922,359.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M191.922,299.34 L251.922,299.34 L251.922,359.34 L191.922,359.34 z" fill="#8FC7ED"/>
+      <path d="M191.922,299.34 L251.922,299.34 L251.922,359.34 L191.922,359.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M251.922,299.34 L311.922,299.34 L311.922,359.34 L251.922,359.34 z" fill="#FABA00"/>
+      <path d="M251.922,299.34 L311.922,299.34 L311.922,359.34 L251.922,359.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <g>
+      <path d="M311.922,299.34 L371.922,299.34 L371.922,359.34 L311.922,359.34 z" fill="#8FC7ED"/>
+      <path d="M311.922,299.34 L371.922,299.34 L371.922,359.34 L311.922,359.34 z" fill-opacity="0" stroke="#294270" stroke-width="4"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 88.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 281.422, 268.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">9</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 268.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.422, 268.828)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">5</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 268.828)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 208.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">3</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 148.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 341.422, 268.828)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">1</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 281.422, 208.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 281.422, 148.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">1</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 281.422, 88.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">3</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 281.422, 328.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.422, 328.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.422, 208.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">8</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 164.115, 148.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">9</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 164.115, 88.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 88.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 148.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 208.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 328.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">5</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 328.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 341.422, 328.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">5</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 339.561, 208.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 339.561, 148.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 339.561, 88.84)">
+      <tspan x="-11.475" y="15" font-family="Roboto-Bold" font-size="40" fill="#294270">8</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 278.578, 29.836)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#F0801A">19</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 341.422, 29.836)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">25</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 221.422, 29.836)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">22</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 161.422, 29.836)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">29</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 101.422, 29.836)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">20</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 48.634, 88.84)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">27</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 48.634, 148.84)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">23</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 48.634, 208.84)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">23</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 45.79, 268.84)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#F0801A">19</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 45.79, 329.727)">
+      <tspan x="-17.212" y="11" font-family="Roboto-Bold" font-size="30" fill="#294270">26</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 219.157, 408.34)">
+      <tspan x="-76.633" y="-8.5" font-family="Roboto-Bold" font-size="30" fill="#294270">Weak Point</tspan>
+      <tspan x="-35.244" y="30.5" font-family="Roboto-Bold" font-size="30" fill="#294270">(4, 4)</tspan>
+    </text>
+  </g>
+  <defs/>
+</svg>

@@ -1,44 +1,55 @@
 <p>
-    <i>( Describe task in general )</i>
+    During traveling, the spaceship carries a lot of stress.
+    So an important part of the maintenance is to check the outer shell.
+    Stephan uses a digital durabilitimeter.
+    This device scan the fragment of the spaceship shell and give a durability map that is divided
+    by small square fragments with measurements.
+    But sometimes Stephan does not have much time and he can patch only couple points.
+    So we need a algorithm to find weak points.
 </p>
 
 <p>
-    Sum two passed ints
+    A durability map is represented as a matrix with digits. Each number is a durability measure for the cell.
+    To find the weakest point we should find the weakest row and column.
+    The weakest point is placed in the intersection of these row and column.
+    Row (column) durability is a sum of cell disabilities in that row (column).
+    You should find coordinates of the weakest point (row and column).
+    The first row (column) is 0th row (column).
+    If a fragment has several equal weak points, then choose the top left point.
 </p>
 
 <p style="text-align: center;">
-    <img class="for_info_only" title="example" src="{{MEDIA}}example.png" alt="example" width="392px"/>
-    <img class="for_editor_only" title="example" src="{{MEDIA}}example.png" alt="example" width="380px"/>
-</p>
-
-<p><i>( Explain input and output values )</i></p>
-<p>
-    <strong>Input: </strong> Two arguments. Both are int
+    <img title="weak-point" src="{{MEDIA}}weak-point.png" alt="weak-point" width="200px"/>
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Input: </strong> A durability map as a list of lists with integers.
+</p>
+
+<p>
+    <strong>Output: </strong> The coordinates of the weak point as a list (tuple) of integers.
 </p>
 
 
 
 <div class="for_info_only">
-    <p><i>( Put some usage examples )</i></p>
     <p>
         <strong>Example:</strong>
     </p>
     <pre class="brush: python">
-checkio(3, 2) == 5
+weak_point(3, 2) == 5
 checkio(5, 7) == 12
     </pre>
 </div>
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    <i>(Here you can explain how it can be used in development and what is usage of this.)</i>
+
 </p>
 
 <p>
-    <strong>Precondition:</strong>
-    <i>Constraints for Input</i>
+    <strong>Precondition:</strong><br>
+    0 &lt; len(<strong>matrix</strong>) &le; 10<br>
+    all(len(row) == len(<strong>matrix</strong>) for row in <strong>matrix</strong>)<br>
+    all(all(0 &lt; x &lt; 10 for x in row) for row in <strong>matrix</strong>)
 </p>
