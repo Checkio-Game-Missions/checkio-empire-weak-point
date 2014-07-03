@@ -40,12 +40,12 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
             }
 
             //YOUR FUNCTION NAME
-            var fname = 'checkio';
+            var fname = 'weak_point';
 
             var checkioInput = data.in;
-            var checkioInputStr = fname + '(' + JSON.stringify(checkioInput)  + ')';
+            var checkioInputStr = fname + '(' + JSON.stringify(checkioInput) + ')';
 
-            var failError = function(dError) {
+            var failError = function (dError) {
                 $content.find('.call').html('Fail: ' + checkioInputStr);
                 $content.find('.output').html(dError.replace(/\n/g, ","));
 
@@ -89,13 +89,11 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
                 $content.find('.answer').remove();
             }
 
-            //Your code here about test explanation animation
-            //$content.find(".explanation").html("Something text for example");
-            //
-            //
-            //
-            //
-            //
+            if (explanation) {
+                var canvas = new DurabilityMatrix();
+                canvas.draw($content.find(".explanation")[0], checkioInput, explanation[0], explanation[1], rightResult);
+            }
+
 
 
             this_e.setAnimationHeight($content.height() + 60);
@@ -115,28 +113,87 @@ requirejs(['ext_editor_1', 'jquery_190', 'raphael_210'],
 //                this_e.sendToConsoleCheckiO("something");
 //            });
 //        });
+        function DurabilityMatrix(options) {
+            options = options || {};
 
-        var colorOrange4 = "#F0801A";
-        var colorOrange3 = "#FA8F00";
-        var colorOrange2 = "#FAA600";
-        var colorOrange1 = "#FABA00";
+            var colorOrange4 = "#F0801A";
+            var colorOrange3 = "#FA8F00";
+            var colorOrange2 = "#FAA600";
+            var colorOrange1 = "#FABA00";
 
-        var colorBlue4 = "#294270";
-        var colorBlue3 = "#006CA9";
-        var colorBlue2 = "#65A1CF";
-        var colorBlue1 = "#8FC7ED";
+            var colorBlue4 = "#294270";
+            var colorBlue3 = "#006CA9";
+            var colorBlue2 = "#65A1CF";
+            var colorBlue1 = "#8FC7ED";
 
-        var colorGrey4 = "#737370";
-        var colorGrey3 = "#9D9E9E";
-        var colorGrey2 = "#C5C6C6";
-        var colorGrey1 = "#EBEDED";
+            var colorGrey4 = "#737370";
+            var colorGrey3 = "#9D9E9E";
+            var colorGrey2 = "#C5C6C6";
+            var colorGrey1 = "#EBEDED";
 
-        var colorWhite = "#FFFFFF";
-        //Your Additional functions or objects inside scope
-        //
-        //
-        //
+            var colorWhite = "#FFFFFF";
 
+            var padding = 10;
+            var cell = 30;
+
+            var size;
+            var paper;
+
+            var attrRect = {"stroke": colorBlue4, "stroke-width": 2, "fill": colorBlue1};
+            var attrDur = {"font-family": "Roboto", "font-size": 20, "stroke": colorBlue4};
+            var attrSum = {"font-family": "Roboto", "font-size": 16, "stroke": colorBlue4};
+
+            this.draw = function(dom, matrix, rows, cols, weak) {
+                size = padding * 2 + (matrix.length + 1) * cell;
+                paper = Raphael(dom, size, size);
+                var mRow = Math.min.apply(Math.min, rows);
+                var mCol = Math.min.apply(Math.min, cols);
+                for (var i = 0; i < rows.length; i++) {
+                    var t = paper.text(padding + cell / 2, padding + cell * 1.5 + cell * i, rows[i]).attr(attrSum);
+                    if (rows[i] === mRow) {
+                        t.attr({"stroke": colorOrange4, "fill": colorOrange4});
+                    }
+                }
+                for (i = 0; i < cols.length; i++) {
+                    t = paper.text(padding + cell * 1.5 + cell * i, padding + cell / 2, cols[i]).attr(attrSum);
+                    if (cols[i] === mCol) {
+                        t.attr({"stroke": colorOrange4, "fill": colorOrange4});
+                    }
+                }
+
+                for (var row = 0; row < matrix.length; row++) {
+                    for (var col = 0; col < matrix[row].length; col++) {
+                        var r = paper.rect(
+                            padding + cell + cell * col,
+                            padding + cell + cell * row,
+                            cell, cell).attr(attrRect);
+                        paper.text(
+                            padding + cell * 1.5 + cell * col,
+                            padding + cell * 1.5 + cell * row,
+                            matrix[row][col]
+                        ).attr(attrDur);
+                        if (rows[row] === mRow || cols[col] === mCol) {
+                            r.attr("fill", colorOrange1);
+                        }
+                        if (row === weak[0] && col === weak[1]) {
+                            r.attr("fill", colorOrange4);
+                        }
+                    }
+                }
+//
+//
+//
+//
+//                    for (var j = -1; j < matrix.length; j++) {
+//
+//                    }
+//                }
+
+
+            }
+
+
+        }
 
     }
 );
