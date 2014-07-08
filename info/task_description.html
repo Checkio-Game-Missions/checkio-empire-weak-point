@@ -1,21 +1,18 @@
 <p>
-    During traveling, the spaceship carries a lot of stress.
-    So an important part of the maintenance is to check the outer shell.
-    Stephan uses a digital durabilitimeter.
-    This device scan the fragment of the spaceship shell and give a durability map that is divided
-    by small square fragments with measurements.
-    But sometimes Stephan does not have much time and he can patch only couple points.
-    So we need a algorithm to find weak points.
+    While traveling, the spaceship endures quite a lot of stress. As a result, an important part of the maintenance is
+    to check the outer hull. Stephan uses a digital durabilitimeter for this task. The device scans a portion of the
+    spaceships hull and gives a durability map that is divided by small square fragments with measurements. Sometimes
+    Stephan does not have much time and he can patch only couple points, so we need an algorithm to find the weak
+    points.
 </p>
 
 <p>
-    A durability map is represented as a matrix with digits. Each number is a durability measure for the cell.
-    To find the weakest point we should find the weakest row and column.
-    The weakest point is placed in the intersection of these row and column.
-    Row (column) durability is a sum of cell disabilities in that row (column).
-    You should find coordinates of the weakest point (row and column).
-    The first row (column) is 0th row (column).
-    If a fragment has several equal weak points, then choose the top left point.
+    The durability map is represented as a matrix with digits. Each number is the durability measurement for the cell.
+    To find the weakest point we should find the weakest row and column. The weakest point is placed in the intersection
+    of these rows and columns. Row (column) durability is a sum of cell disabilities in that row (column). You should
+    find coordinates of the weakest point (row and column). The first row (column) is 0th row (column). If a section has
+    several equal weak points, then choose the top left point.
+
 </p>
 
 <p style="text-align: center;">
@@ -30,7 +27,6 @@
 <p>
     <strong>Output: </strong> The coordinates of the weak point as a list (tuple) of integers.
 </p>
-
 
 
 <div class="for_info_only">
@@ -53,7 +49,7 @@ weak_point([[7, 2, 4, 2, 8],
 
 <p class="for_info_only">
     <strong>How it is used: </strong>
-    Matrices (2D array) are an often used data structure and it will be helpful to sharp your skills with they.
+    Matrices (2D array) are an often used data structure and it will be helpful to sharpen your skills with them.
 </p>
 
 <p>
