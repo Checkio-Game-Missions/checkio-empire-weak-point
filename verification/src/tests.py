@@ -8,7 +8,7 @@ Each test is dict with
 """
 
 TESTS = {
-    "Basics": [
+    "Rank_1": [
         {
             "input": [[7, 2, 7, 2, 8], [2, 9, 4, 1, 7], [3, 8, 6, 2, 4], [2, 5, 2, 9, 1], [6, 6, 5, 4, 5]],
             "answer": [3, 3],
@@ -24,8 +24,6 @@ TESTS = {
             "answer": [0, 0],
             "explanation": [[3, 3, 3], [3, 3, 3]],
         },
-    ],
-    "Edge": [
         {
             "input": [[1]],
             "answer": [0, 0],
