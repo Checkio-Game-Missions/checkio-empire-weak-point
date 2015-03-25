@@ -38,5 +38,5 @@ api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
         tests=TESTS,
-        function_name="weak_point"
+        DEFAULT_FUNCTION_NAME="weak_point"
     ).on_ready)
