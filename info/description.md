@@ -6,7 +6,3 @@ You should find coordinates of the weakest point (row, column).
 The first row (column) is 0th row (column). If a section has several equal weak points, then choose the top left point.
 
 ![Weak Point](weak-point.svg)
-
-In this mission the main goal to make your code as short as possible.
-The shorter your code, the more points you earn.
-Your score for this mission is dynamic and directly related to the length of your code.
