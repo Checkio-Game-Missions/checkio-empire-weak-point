@@ -19,7 +19,7 @@ The first row (column) is 0th row (column). If a section has several equal weak 
 26| 6 | 6 | 5 | 4 | 5 |
   |---|---|---|-*-|---|
   
-  Weak point (4, 4)
+  Weak point (3, 3)
 
     20  29  19  19  25
   |---|---|-*-|-*-|---|
